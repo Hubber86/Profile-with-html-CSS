@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif,'Times New Roman', Times, serif ;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.profile {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    width: 300px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    margin: 0;
+    color: #333333;
+}
+
+.profile p {
+    margin-top: 5px;
+    color: #666666;
+}
+
+.profile:hover {
+    background-color: rgb(0, 225, 255);
+  }
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.contact-list li {
+    margin-bottom: 5px;
+    color: #186b67;
+}
